@@ -6,7 +6,7 @@ import org.junit.Test;
 public class TestCalculator{
 
 	@Test
-	public void testAddWithInteger(){
+	public void TestAddWithInteger(){
 		
 		Calculator calc = new Calculator();
 		double sum = calc.add(2,5);
@@ -16,7 +16,7 @@ public class TestCalculator{
 	}
 	
 	@Test
-	public void testSubWithNegative(){
+	public void TestSubWithNegative(){
 		
 		Calculator calc = new Calculator();
 		double remainder = calc.subtract(5.0, 10.0);
