@@ -11,7 +11,7 @@ public class TestCalculator{
 		Calculator calc = new Calculator();
 		double sum = calc.add(2,5);
 		
-		assertEquals(7.0, sum);
+		assertEquals(7.0, sum, 0.0);
 		
 	}
 	
@@ -21,7 +21,7 @@ public class TestCalculator{
 		Calculator calc = new Calculator();
 		double remainder = calc.subtract(5.0, 10.0);
 		
-		assertEquals(-5.0, remainder);
+		assertEquals(-5.0, remainder, 0.0);
 	}
 	
 }
